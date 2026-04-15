@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — KoinWorx</title>
+  <meta name="description" content="Get in touch with KoinWorx. Contact our offices in the US, UK, Pakistan, and UAE. Book a call, WhatsApp, or fill out our contact form." />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<div id="nav-placeholder"></div>
+<section class="page-hero">
+  <div class="container"><div class="page-hero-inner">
+    <div class="breadcrumb"><a href="index.html">Home</a><span>›</span> Contact</div>
+    <div class="badge" style="background:rgba(255,255,255,.1);color:rgba(255,255,255,.9);border:1px solid rgba(255,255,255,.2);">Get In Touch</div>
+    <h1>Let's Start the Conversation</h1>
+    <p>Fill out the form, book a call, or reach us directly via email or WhatsApp. We respond to all enquiries within 1 business day.</p>
+  </div></div>
+</section>
+<section class="section">
+  <div class="container">
+    <div class="contact-grid">
+      <div>
+        <h2 style="margin-bottom:8px;">Send Us a Message</h2>
+        <p style="margin-bottom:32px;">Tell us about your project and a solutions consultant will reach out to discuss your needs.</p>
+        <form class="contact-form contact-form-el" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="fname">First Name *</label>
+              <input type="text" id="fname" name="first_name" placeholder="John" required />
+            </div>
+            <div class="form-group">
+              <label for="lname">Last Name *</label>
+              <input type="text" id="lname" name="last_name" placeholder="Smith" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="email">Business Email *</label>
+            <input type="email" id="email" name="email" placeholder="john@company.com" required />
+          </div>
+          <div class="form-group">
+            <label for="company">Company Name</label>
+            <input type="text" id="company" name="company" placeholder="Acme Corporation" />
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" placeholder="+1 (555) 000-0000" />
+          </div>
+          <div class="form-group">
+            <label for="service">Service of Interest *</label>
+            <select id="service" name="service" required>
+              <option value="">Select a service…</option>
+              <option>Cloud (Azure & AWS)</option>
+              <option>Test Automation</option>
+              <option>ERP Applications</option>
+              <option>Blockchain</option>
+              <option>IT Staffing</option>
+              <option>Software Development</option>
+              <option>Cybersecurity</option>
+              <option>Multiple Services / General Inquiry</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="budget">Project Budget (Optional)</label>
+            <select id="budget" name="budget">
+              <option value="">Select a range…</option>
+              <option>Under $25,000</option>
+              <option>$25,000 – $100,000</option>
+              <option>$100,000 – $500,000</option>
+              <option>$500,000+</option>
+              <option>Ongoing / Staffing</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">How Can We Help? *</label>
+            <textarea id="message" name="message" placeholder="Describe your project, challenge, or what you're looking for…" required></textarea>
+          </div>
+          <div class="form-group">
+            <label style="display:flex;align-items:flex-start;gap:10px;cursor:pointer;">
+              <input type="checkbox" name="newsletter" value="yes" style="width:auto;margin-top:3px;" />
+              <span style="font-weight:400;color:var(--muted);font-size:14px;">I'd like to receive occasional technology insights and KoinWorx news. Unsubscribe at any time.</span>
+            </label>
+          </div>
+          <button type="submit" class="btn btn-primary btn-lg" style="width:100%;">Send Message →</button>
+          <p class="form-message" style="margin-top:12px;font-size:14px;text-align:center;"></p>
+        </form>
+      </div>
+
+      
+      <div>
+        <h2 style="margin-bottom:8px;">Other Ways to Reach Us</h2>
+        <p style="margin-bottom:28px;">Prefer a direct conversation? Here's how to get hold of our team.</p>
+
+        <div class="contact-info-block" style="margin-bottom:32px;">
+          <div class="contact-info-item">
+            <div class="cii-icon">📞</div>
+            <div>
+              <div class="cii-label">Phone</div>
+              <div class="cii-value">+00 000 000 000</div>
+              <div class="cii-sub">Mon–Fri, 9am–6pm EST</div>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <div class="cii-icon"></div>
+            <div>
+              <div class="cii-label">WhatsApp</div>
+              <div class="cii-value"><a href="https://wa.me/18001234567" style="color:var(--accent);">Chat on WhatsApp →</a></div>
+              <div class="cii-sub">Typically reply within 1 hour</div>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <div class="cii-icon"></div>
+            <div>
+              <div class="cii-label">Email</div>
+              <div class="cii-value"><a href="mailto:info@koinworx.com" style="color:var(--accent);">info@koinworx.com</a></div>
+              <div class="cii-sub">Response within 1 business day</div>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <div class="cii-icon"></div>
+            <div>
+              <div class="cii-label">LinkedIn</div>
+              <div class="cii-value"><a href="https://www.linkedin.com/company/koinworx" style="color:var(--accent);">KoinWorx on LinkedIn →</a></div>
+              <div class="cii-sub">Follow for industry insights</div>
+            </div>
+          </div>
+        </div>
+        <div class="calendly-box" id="book">
+          <div class="cal-icon"></div>
+          <h3>Book a Free Consultation Call</h3>
+          <p>30-minute call with a solutions architect. No sales pressure — just an honest conversation about your technology needs.</p>
+         >
+          <a href="https://calendly.com/koinworx/discovery" target="_blank" class="btn btn-primary btn-lg">
+            Book a 30-Minute Call
+          </a>
+          <p style="font-size:12px;margin-top:12px;color:var(--muted);">Powered by Calendly. Replace with your booking link.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section section--gray">
+  <div class="container">
+    <div class="section-header">
+      <div class="badge">Our Offices</div>
+      <h2>Find Us Around the World</h2>
+      <p>4 offices across 4 countries — giving you a local presence wherever you're based.</p>
+    </div>
+    <div class="offices-grid">
+      <div class="office-card" data-aos="fade-up">
+        <div class="office-flag">🇳🇱</div>
+        <div>
+          <div class="office-name">Netherlands</div>
+          <div class="office-detail">Legmeerdijk 140, 1187 NH Amstelveen<br>Netherlands</div>
+          <div class="office-contact" style="margin-top:10px;">
+            <a href="mailto:us@koinworx.com">info@koinworx.com</a><br>
+            <a href="tel:+15125550190" style="color:var(--muted);">+00 0000 000</a>
+          </div>
+        </div>
+      </div>
+      <div class="office-card" data-aos="fade-up" data-aos-delay="80">
+        <div class="office-flag">🇧🇪</div>
+        <div>
+          <div class="office-name">Belgium</div>
+          <div class="office-detail">Jules Bordetlaan 66/22 1140 Brussels<br>Belgium</div>
+          <div class="office-contact" style="margin-top:10px;">
+            <a href="mailto:uk@koinworx.com">info@koinworx.com</a><br>
+            <a href="tel:+442079460123" style="color:var(--muted);">+00 000 000</a>
+          </div>
+        </div>
+      </div>
+      <div class="office-card" data-aos="fade-up">
+        <div class="office-flag">🇵🇱</div>
+        <div>
+          <div class="office-name">Poland</div>
+          <div class="office-detail">ul. Bartycka 22B suite 21A 00-716 Warsaw<br>Poland</div>
+          <div class="office-contact" style="margin-top:10px;">
+            <a href="mailto:pk@koinworx.com">info@koinworx.com</a><br>
+            <a href="tel:+925112345670" style="color:var(--muted);">+92 51 1234 567</a>
+          </div>
+        </div>
+      </div>
+      <div class="office-card" data-aos="fade-up" data-aos-delay="80">
+        <div class="office-flag">🇮🇳</div>
+        <div>
+          <div class="office-name">India</div>
+          <div class="office-detail">LG-CS-17, Ansal Plaza, Sector-1, Vaishali Ghaziabad, Uttar Pradesh - 20101<br>India</div>
+          <div class="office-contact" style="margin-top:10px;">
+            <a href="mailto:uae@koinworx.com">uae@koinworx.com</a><br>
+            <a href="tel:+97145550123" style="color:var(--muted);">+00 000 0000 000</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="map-placeholder">
+      <span></span>
+      <strong>Interactive Office Map</strong>
+      <p style="font-size:13px;text-align:center;max-width:400px;">Replace this section with a Google Maps embed. Add your iframe here:<br><code>&lt;iframe src="https://maps.google.com/..." /&gt;</code></p>
+    </div>
+  </div>
+</section>
+<section class="section">
+  <div class="container" style="max-width:800px;">
+    <div class="section-header">
+      <div class="badge">FAQ</div>
+      <h2>Common Questions</h2>
+    </div>
+    <div style="display:flex;flex-direction:column;gap:16px;">
+      <details class="card" style="padding:24px;cursor:pointer;">
+        <summary style="font-family:'Plus Jakarta Sans',sans-serif;font-weight:700;font-size:16px;color:var(--navy);list-style:none;display:flex;justify-content:space-between;">
+          How quickly can you start a project? <span>+</span>
+        </summary>
+        <p style="margin-top:12px;">For staffing, we can typically have candidates in front of you within 2–3 business days and onboard within 10. For project work, we can usually begin within 2–4 weeks of contract signature, depending on scope and team requirements.</p>
+      </details>
+      <details class="card" style="padding:24px;cursor:pointer;">
+        <summary style="font-family:'Plus Jakarta Sans',sans-serif;font-weight:700;font-size:16px;color:var(--navy);list-style:none;display:flex;justify-content:space-between;">
+          Do you work with companies outside your office countries? <span>+</span>
+        </summary>
+        <p style="margin-top:12px;">Absolutely. While our offices are in the US, UK, Pakistan, and UAE, we work with clients globally. Most of our engagement is delivered remotely, with on-site visits for critical milestones when needed.</p>
+      </details>
+      <details class="card" style="padding:24px;cursor:pointer;">
+        <summary style="font-family:'Plus Jakarta Sans',sans-serif;font-weight:700;font-size:16px;color:var(--navy);list-style:none;display:flex;justify-content:space-between;">
+          What engagement sizes do you work with? <span>+</span>
+        </summary>
+        <p style="margin-top:12px;">We work with engagements from single-specialist staffing through to full-scale enterprise transformation programs. Our sweet spot is mid-market to enterprise clients, but we take selected startup projects where the technology is a good fit.</p>
+      </details>
+      <details class="card" style="padding:24px;cursor:pointer;">
+        <summary style="font-family:'Plus Jakarta Sans',sans-serif;font-weight:700;font-size:16px;color:var(--navy);list-style:none;display:flex;justify-content:space-between;">
+          How does your pricing work? <span>+</span>
+        </summary>
+        <p style="margin-top:12px;">We offer fixed-price, time & materials, and managed service pricing models. Staffing is billed on a daily or monthly rate depending on engagement length. Contact us for a bespoke quote aligned to your specific requirements.</p>
+      </details>
+    </div>
+  </div>
+</section>
+<div id="footer-placeholder"></div>
+<script src="js/components.js"></script><script src="js/main.js"></script>
+<script>
+document.querySelectorAll('details').forEach(d => {
+  d.addEventListener('toggle', () => {
+    d.querySelector('summary span').textContent = d.open ? '−' : '+';
+  });
+});
+</script>
+</body>
+</html>
